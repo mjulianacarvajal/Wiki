@@ -149,4 +149,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SITE_ID = 1
 WIKI_ACCOUNT_HANDLING = True
 ## en false cuando ya se hayan creado usuarios
-WIKI_ACCOUNT_SIGNUP_ALLOWED = True
+WIKI_ACCOUNT_SIGNUP_ALLOWED = False
