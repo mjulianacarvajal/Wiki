@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -122,7 +123,6 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -149,4 +149,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SITE_ID = 1
 WIKI_ACCOUNT_HANDLING = True
 ## en false cuando ya se hayan creado usuarios
-WIKI_ACCOUNT_SIGNUP_ALLOWED = False
+WIKI_ACCOUNT_SIGNUP_ALLOWED = True
