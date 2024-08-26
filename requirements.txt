@@ -19,25 +19,4 @@ typing_extensions==4.12.2
 tzdata==2024.1
 webencodings==0.5.1
 wiki==0.11.1
-=======
-asgiref==3.8.1
-bleach==6.1.0
-Django==5.0.7
-django-classy-tags==4.1.0
-django-js-asset==2.2.0
-django-mptt==0.16.0
-django-nyt==1.4
-django-sekizai==4.1.0
-Markdown==3.6
-pillow==10.4.0
-pymdown-extensions==10.5
-PyYAML==6.0.1
-six==1.16.0
-sorl-thumbnail==12.10.0
-sqlparse==0.5.1
-tinycss2==1.2.1
-typing_extensions==4.12.2
-tzdata==2024.1
-webencodings==0.5.1
-wiki==0.11.1
->>>>>>> cf03ce0d7633f446b69f97449b96a0dfbaa3140c
+
